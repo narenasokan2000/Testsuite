@@ -1,0 +1,6 @@
+Test Case ID,Endpoint,Method,Scenario,Expected Result
+API_TC_11,/weather?q=Coimbatore,GET,Valid city,200 OK + weather data
+API_TC_12,/weather?q=invalid,GET,Invalid city,404 error
+API_TC_13,/weather,GET,Missing API key,401 Unauthorized
+API_TC_14,/weather?q=Coimbatore,GET,Validate temperature field,Response should contain temperature
+API_TC_15,/weather?q=Coimbatore,GET,Response time check,Should respond within acceptable time
