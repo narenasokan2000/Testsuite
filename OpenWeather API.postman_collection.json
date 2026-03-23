@@ -1,0 +1,19 @@
+{
+  "info": {
+    "_postman_id": "62acd7f5-a872-4999-a3d3-8826481580fd",
+    "name": "OpenWeather API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53425585",
+    "_collection_link": "https://go.postman.co/collection/53425585-62acd7f5-a872-4999-a3d3-8826481580fd?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get Weather Details",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
