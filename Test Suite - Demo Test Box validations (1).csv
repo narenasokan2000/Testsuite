@@ -1,0 +1,28 @@
+URL,https://demoqa.com/text-box,,,
+Test Case ID,Test Scenario,Test Data,Test Steps,Expected Result
+TC_TEXT_01,Enter valid data,"Full Name: ABCD 
+Email ID: abcd2@gmail.com 
+Current Address: Door No 1234, ABCD Nagar, YYYY - 12345
+Permanent Address: Door No 1234, ABCD Nagar, YYYY - 12345","1. Open the page 
+2. Enter valid data in all fields 
+3. Click Submit",Data should be submitted successfully and displayed correctly
+TC_TEXT_02,Enter invalid email format,"Full Name: ABCD 
+Email ID: abcd2 
+Current Address: Door No 1234, ABCD Nagar, YYYY - 12345 
+Permanent Address: Door No 1234, ABCD Nagar, YYYY - 12345","1. Enter an invalid email address 
+2. Click Submit",System should display a validation error for invalid email
+TC_TEXT_03,Submit with empty fields,All fields blank,"1. Leave all fields empty 
+2. Click Submit",Form should not be submitted and validation messages should be displayed
+TC_TEXT_04,Enter special characters in name field,@$%^&,"1. Enter special characters in the name field 
+2. Click Submit",System should restrict input or display a validation error
+TC_TEXT_05,Enter numeric values in name field,12345,"1. Enter numeric values in the name field 
+2. Click Submit",System should not accept numeric values in the name field
+TC_TEXT_06,Verify maximum character limit,Long text input in address field,"1. Enter text exceeding the character limit in the address field 
+2. Click Submit",System should restrict input or display a validation error
+TC_TEXT_07,Verify data persistence after submission,"Full Name: ABCD 
+Email ID: abcd2@gmail.com 
+Current Address: Door No 1234, ABCD Nagar, YYYY - 12345 
+Permanent Address: Door No 1234, ABCD Nagar, YYYY - 12345","1. Fill all fields with valid data 
+2. Click Submit",Entered data should be displayed correctly without any data loss
+TC_TEXT_08,Verify UI alignment,N/A,"1. Open the page 
+2. Observe the UI layout","Fields, labels, and buttons should be properly aligned"
